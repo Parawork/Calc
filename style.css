@@ -1,0 +1,85 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    align-content: center;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #1e90ff; /* Dodger blue */
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    color: #4682b4; /* Steel blue */
+}
+
+input[type="number"] {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #87cefa; /* Light sky blue */
+    border-radius: 4px;
+}
+
+button {
+    background-color: #1e90ff; /* Dodger blue */
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4169e1; /* Royal blue */
+}
+
+#modules-container {
+    margin-bottom: 1rem;
+}
+
+.module-input {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.module-input input {
+    flex: 1;
+}
+
+#gpa-result {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1e90ff; /* Dodger blue */
+}
